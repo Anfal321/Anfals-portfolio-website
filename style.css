@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  line-height: 1.5;
+}
+
+header, main, footer {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  padding: 20px 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px auto;
+}
+
+footer {
+  padding: 10px 0 25px;
+  color: #9ca3af;
+}

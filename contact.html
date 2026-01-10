@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anfal Ahmad | Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Contact me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <p>This form uses JavaScript to check the input.</p>
+
+    <form id="contactForm">
+      <p>
+        <label>Name</label><br>
+        <input type="text" id="name">
+        <span class="error" data-error-for="name"></span>
+      </p>
+
+      <p>
+        <label>Email</label><br>
+        <input type="email" id="email">
+        <span class="error" data-error-for="email"></span>
+      </p>
+
+      <p>
+        <label>Message</label><br>
+        <textarea id="message"></textarea>
+        <span class="error" data-error-for="message"></span>
+      </p>
+
+      <button type="submit">Send</button>
+      <p id="formStatus"></p>
+    </form>
+  </main>
+
+  <footer>
+    <hr>
+    <p>© <span id="year"></span> • TCSE1IIT Portfolio</p>
+  </footer>
+</body>
+</html>
